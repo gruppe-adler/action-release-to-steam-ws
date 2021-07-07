@@ -9,7 +9,7 @@ This action takes your packed Arma 3 mod and releases it to the Steam Workshop. 
 ## Inputs
 
 ### `app_id`
-This input is optional (Default: `107410` = Aram 3)  
+This input is optional (Default: `107410` = Arma 3)  
 Workshop app-ID of to publish to
 
 ### `file_id`
