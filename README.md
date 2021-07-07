@@ -61,7 +61,7 @@ jobs:
       uses: gruppe-adler/action-release-with-hemtt@2.2.0
       id: build
     - name: Upload mod
-      uses: gruppe-adler/action-release-to-steam-ws@v1
+      uses: gruppe-adler/action-release-to-steam-ws@v1-beta
       with:
         file_id: <INSERT FILE ID>
         username: "${{ secrets.STEAM_USERNAME }}"
