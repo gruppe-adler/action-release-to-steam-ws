@@ -1,0 +1,41 @@
+name: 'Upload Arma 3 Mod to Steam WS'
+description: 'Upload an Arma 3 mod to the Steam Workshop. This also generates a meta.cpp like the Publisher does and can accept change notes in Markdown format.'
+author: 'Gruppe Adler'
+branding:
+  icon: 'activity'
+  color: 'orange'
+inputs:
+  app_id:
+    description: 'Workshop app-ID of to publish to'
+    required: false
+    default: '107410'
+  file_id:
+    description: 'Workshop file-ID to publish to'
+    required: true
+  username:
+    description: 'Steam username'
+    required: true
+  password:
+    description: 'Steam password'
+    required: true
+  path:
+    description: 'Path to mod folder'
+    required: true
+  name:
+    description: 'Name of mod (used in meta.cpp)'
+    required: true
+  change_notes_title:
+    description: 'Title of change notes'
+    required: false
+    default: ''
+  change_notes:
+    description: 'Body of change notes'
+    required: false
+    default: '*Released with gruppe-adler/release-to-steam-ws*'
+  change_notes_md:
+    description: 'Whether the change notes are in markdown format'
+    required: false
+    default: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
