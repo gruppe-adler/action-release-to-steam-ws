@@ -1,5 +1,5 @@
 name: 'Upload Arma 3 Mod to Steam WS'
-description: 'Upload an Arma 3 mod to the Steam Workshop. This also generates a meta.cpp like the Publisher does and can accept change notes in Markdown format.'
+description: 'Upload an Arma 3 mod to the Steam Workshop. This also generates a meta.cpp and can accept change notes in Markdown format.'
 author: 'Gruppe Adler'
 branding:
   icon: 'activity'
