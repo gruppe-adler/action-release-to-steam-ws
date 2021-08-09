@@ -17,7 +17,7 @@ export function generateMetaCPP(id: number, name: string, hashOverride?: number)
     addAttribute('publishedid', id);
     addAttribute('name', name, true);
     addAttribute('timestamp', generateTimestamp());
-    if (hashOverride !== undefined) addAttribute('timestamp', hashOverride);
+    if (hashOverride !== undefined) addAttribute('hashOverride', hashOverride);
 
     return metaCPP;
 }
