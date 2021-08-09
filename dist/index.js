@@ -289,7 +289,7 @@ function generateMetaCPP(id, name, hashOverride) {
     addAttribute('name', name, true);
     addAttribute('timestamp', generateTimestamp());
     if (hashOverride !== undefined)
-        addAttribute('timestamp', hashOverride);
+        addAttribute('hashOverride', hashOverride);
     return metaCPP;
 }
 exports.generateMetaCPP = generateMetaCPP;
