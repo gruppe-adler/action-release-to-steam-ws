@@ -53,7 +53,7 @@ on:
 jobs:
   upload-to-steam:
     name: Upload to Steam Workshop
-    if: ${{ github.event.release.prerelease }} # Do not upload pre releases
+    if: ${{ !github.event.release.prerelease }} # Do not upload pre releases
     runs-on: windows-latest
     steps:
     - name: Checkout repo
