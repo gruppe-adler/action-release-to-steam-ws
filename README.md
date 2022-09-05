@@ -80,7 +80,7 @@ The scripts and documentation in this project are released under the [MIT Licens
 ## Limitations
 
 ### `meta.cpp`
-We support every fields of Arma 3's `meta.cpp` as described [here](https://community.bistudio.com/wiki/Arma_3:_meta.cpp), except the `hashOverride` field. It is marked as not required, but it is unclear if this causes compatibility issues with the Arma 3 Launcher.
+We support every fields of Arma 3's `meta.cpp` as described [here](https://community.bistudio.com/wiki/Arma_3:_meta.cpp), except the `hashOverride` field. It is marked as not required and according to a BI developer this is true and should not cause any issues. Although it is very unlikely, this may cause compatibility issues with Arma 3 Launcher in the future.
 
 ### Markdown support
 Converting between markups with diffing feature sets isn't an easy task and can only happen on a best effort basis. It is always recommend to check your Steam WS "Change Notes" for any obvious errors after a new version has been released. Nevertheless it still makes it a lot easier. Fixing a few conversion issues is less work than converting everything from scratch by hand.  
