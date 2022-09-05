@@ -4,7 +4,7 @@ This action takes your packed Arma 3 mod and releases it to the Steam Workshop. 
 
 ## Features:
 - Convert markdown change notes to steams markup (with some [limitations](#markdown-support))
-- Create `meta.cpp` like the Arma 3 Tools' Publisher does (with some [limitations](#meta-cpp))
+- Create `meta.cpp` like the Arma 3 Tools' Publisher does (with some [limitations](#metacpp))
 
 ## Inputs
 
